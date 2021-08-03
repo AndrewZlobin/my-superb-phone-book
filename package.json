@@ -1,7 +1,7 @@
 {
-  "name": "electron-quick-start",
+  "name": "my-superb-phone-book",
   "version": "1.0.0",
-  "description": "A minimal Electron application",
+  "description": "Phone book with some extensions based on Electron framework",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
@@ -14,9 +14,12 @@
     "tutorial",
     "demo"
   ],
-  "author": "GitHub",
+  "author": "Andrew Zlobin",
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^13.1.7"
+  },
+  "dependencies": {
+    "bootstrap": "^5.0.2"
   }
 }
